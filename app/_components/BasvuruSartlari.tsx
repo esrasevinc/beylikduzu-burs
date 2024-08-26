@@ -4,7 +4,7 @@ import { MdCancel } from "react-icons/md";
 
 const BasvuruSartlari = () => {
   return (
-    <div className=' w-full grid grid-cols-2 items-start justify-center  flex-col lg:flex-row gap-10 max-w-7xl px-10 md:px-20'>
+    <div className=' w-full grid grid-cols-1 md:grid-cols-2 items-start justify-center  flex-col lg:flex-row gap-10 max-w-7xl px-10 md:px-20'>
         <div className='flex flex-col'>
         <h1 className='text-2xl md:text-3xl text-bb-blue font-bold pb-4'>Başvuru Şartları</h1>
         <div className='flex flex-col items-start justify-start gap-4 bg-bb-green rounded px-4 py-4'>
