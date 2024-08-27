@@ -21,7 +21,7 @@ const Navbar = () => {
         <Image 
         src={logo}
         alt="BB Logo"
-        className="w-56 h-auto"
+        className="w-48 md:w-56 h-auto"
         width={200}
         height={50}
         />
@@ -61,9 +61,9 @@ const Navbar = () => {
                   <div className="relative list-none">
                     <Link
                       className="block hover:text-slate-200 text-white text-sm lg:text-base px-[10px] py-[25px] "
-                      href={"/sik-sorulan-sorular"}
+                      href={"/sikca-sorulan-sorular"}
                     >
-                      Sık Sorulan Sorular
+                      Sıkça Sorulan Sorular
                     </Link>
                   </div>
                   <div className="relative list-none">
