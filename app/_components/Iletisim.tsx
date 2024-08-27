@@ -22,7 +22,7 @@ const Iletisim = () => {
         </div>  
         <div className="flex items-center justify-center w-full">
               <IFrame
-                className="min-h-[300px] w-full md:border-4 md:rounded-lg border-bb-green"
+                className="min-h-[300px] w-full md:border-2 md:rounded-lg border-bb-green"
                 url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.4811496337397!2d28.624296090165203!3d40.99284089748809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b55fcb769d3431%3A0xbe5b022984cca608!2zQmV5bGlrZMO8esO8IEJlbGVkaXllc2kgVmV0ZXJpbmVyIMSwxZ9sZXJpIE3DvGTDvHJsw7zEn8O8IEhheXZhbiBCYXLEsW5hxJ_EsQ!5e0!3m2!1str!2str!4v1694778140010!5m2!1str!2str"
               />
             </div>

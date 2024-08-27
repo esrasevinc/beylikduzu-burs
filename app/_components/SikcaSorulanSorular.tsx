@@ -24,7 +24,7 @@ const AccordionItem = ({ header, ...rest }: any) => (
     className="border-b"
     buttonProps={{
       className: ({ isEnter }) =>
-        `flex w-full p-4 lg:p-6 text-left transition-all duration-100 ease-in-out text-bb-blue hover:text-white hover:bg-bb-blue font-medium ${
+        `flex w-full p-4 lg:p-6 text-left transition-all duration-100 ease-in-out text-bb-blue hover:text-white hover:bg-bb-blue/50 font-medium ${
           isEnter && "bg-bb-blue text-white "
         }`,
     }}
@@ -70,6 +70,39 @@ const SikcaSorulanSorular = (props: Props) => {
             </p>
           </div>
         </AccordionItem>
+        <AccordionItem header="Soru 4">
+          <div className="space-y-2">
+            <p>
+              Cevap 4
+            </p>
+           
+          </div>
+        </AccordionItem>
+        <AccordionItem header="Soru 5">
+          <div className="space-y-2">
+            <p>
+              Cevap 5
+            </p>
+           
+          </div>
+        </AccordionItem>
+        <AccordionItem header="Soru 6">
+          <div className="space-y-2">
+            <p>
+              Cevap 6
+            </p>
+           
+          </div>
+        </AccordionItem>
+        <AccordionItem header="Soru 7">
+          <div className="space-y-2">
+            <p>
+              Cevap 7
+            </p>
+           
+          </div>
+        </AccordionItem>
+
       </Accordion>
       </div>
       </div>

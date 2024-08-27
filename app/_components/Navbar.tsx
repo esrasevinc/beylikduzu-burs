@@ -33,8 +33,8 @@ const Navbar = () => {
               />
             </div>
 
-            {/* {open && (
-              <div className='bg-bb-blue z-[1000] h-screen w-full flex '>
+            {open && (
+              <div className='bg-bb-blue h-screen flex '>
                 <Link href="/basvuru-sartlari" onClick={toggleMenu}>
                   Başvuru Şartları
                 </Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
                   İletişim
                 </Link>
               </div>
-            )} */}
+            )} 
         <div className="hidden md:flex gap-2 lg:gap-4">
                   <div className="relative list-none">
                     <Link

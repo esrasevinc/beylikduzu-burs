@@ -4,10 +4,16 @@ import { MdCancel } from "react-icons/md";
 
 const BasvuruSartlari = () => {
   return (
-    <div className=' w-full grid grid-cols-1 md:grid-cols-2 items-start justify-center  flex-col lg:flex-row gap-10 max-w-7xl px-10 md:px-20'>
+    <div className='flex flex-col w-full items-center max-w-7xl px-10 md:px-20'>
+    <div className='w-full flex flex-col items-center justify-center pb-6 md:pb-12'>
+        <h1 className='text-xl md:text-2xl lg:text-4xl text-bb-green font-bold'>Beylikdüzü Genç Üniversiteli Eğitim Yardımı</h1>
+        <p className='text-slate-700 mt-2 text-sm md:text-base'>Eğitim hayatınıza katkıda bulunmak ve geleceğinizi desteklemek amacıyla, Beylikdüzü Belediyesi olarak üniversite öğrencilerine burs desteği sunuyoruz. Bu burs programı, ekonomik açıdan ihtiyaç duyan öğrencilerin eğitimlerini daha rahat sürdürebilmeleri ve başarılarına odaklanabilmeleri için hayata geçirilmiştir. Başvuru süreci ve gerekli belgeler hakkında detaylı bilgiye bu portal üzerinden ulaşabilir ve burs başvurunuzu kolayca gerçekleştirebilirsiniz. Siz de hemen başvurarak geleceğinize bir adım daha atabilirsiniz!</p>
+    </div>
+    <div className=' w-full grid grid-cols-1 md:grid-cols-2 items-start justify-center  flex-col lg:flex-row gap-10 '>
         <div className='flex flex-col'>
-        <h1 className='text-2xl md:text-3xl text-bb-blue font-bold pb-4'>Başvuru Şartları</h1>
-        <div className='flex flex-col items-start justify-start gap-4 bg-bb-green rounded px-4 py-4'>
+            
+        <h1 className='text-xl md:text-2xl lg:text-3xl text-bb-blue font-bold pb-2'>Başvuru Şartları</h1>
+        <div className='flex flex-col items-start justify-start gap-4 bg-bb-green/70 rounded px-4 py-4 text-sm md:text-base'>
         <div className='flex items-start justify-center text-white'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Türkiye Cumhuriyeti vatandaşı olmak</p>
@@ -32,8 +38,8 @@ const BasvuruSartlari = () => {
         </div>
         </div>
         <div className='flex flex-col'>
-        <h1 className='text-2xl md:text-3xl text-bb-blue font-bold pb-4'>Başvuru Yapamayacak Öğrenciler</h1>
-        <div className='flex flex-col items-start justify-start gap-4 bg-bb-green rounded px-4 py-4'>
+        <h1 className='text-xl md:text-2xl lg:text-3xl text-bb-blue font-bold pb-2'>Başvuru Yapamayacak Öğrenciler</h1>
+        <div className='flex flex-col items-start justify-start gap-4 bg-bb-green/70 rounded px-4 py-4 text-sm md:text-base'>
         <div className='flex items-start justify-center text-white gap-2'>
             <span><MdCancel className='w-6 h-6'/></span>
             <p>Açık öğretimde okuyan öğrenciler</p>
@@ -64,8 +70,8 @@ const BasvuruSartlari = () => {
         
         </div>
         <div className='flex flex-col'>
-        <h1 className='text-2xl md:text-3xl text-bb-blue font-bold pb-4'>Gerekli Belgeler</h1>
-        <div className='flex flex-col items-start justify-start gap-4 bg-bb-green rounded px-4 py-4'>
+        <h1 className='text-xl md:text-2xl lg:text-3xl text-bb-blue font-bold pb-2'>Gerekli Belgeler</h1>
+        <div className='flex flex-col items-start justify-start gap-4 bg-bb-green/70 rounded px-4 py-4 text-sm md:text-base'>
         <div className='flex items-start justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Adli sicil kaydı</p>
@@ -93,8 +99,8 @@ const BasvuruSartlari = () => {
         </div>
         </div>
         <div className='flex flex-col'>
-        <h1 className='text-2xl md:text-3xl text-bb-blue font-bold pb-4'>Bilgilendirme</h1>
-        <div className='flex flex-col items-start justify-start gap-4 bg-bb-green rounded px-4 py-4'>
+        <h1 className='text-xl md:text-2xl lg:text-3xl text-bb-blue font-bold pb-2'>Bilgilendirme</h1>
+        <div className='flex flex-col items-start justify-start gap-4 bg-bb-green/70 rounded px-4 py-4 text-sm md:text-base'>
         <div className='flex items-start justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Değerlendirmede, eğitim yardımı değerlendirme kriterlerine göre yapılacak sıralama esas alınır.</p>
@@ -106,6 +112,7 @@ const BasvuruSartlari = () => {
         
         </div>
         </div>
+    </div>
     </div>
   )
 }

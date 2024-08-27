@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./_components/Navbar";
 import Footer from "./_components/Footer";
+import NextTopLoader from "nextjs-toploader";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body className={inter.className}>
       <div className="flex flex-col h-screen bg-white">
           <Navbar />
+          <NextTopLoader color="white" height={8} showSpinner={true} />
           <div className="flex flex-col flex-1 relative mt-[70px]">{children}</div>
           <Footer />
         </div>
