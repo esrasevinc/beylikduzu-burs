@@ -13,11 +13,11 @@ const Iletisim = () => {
         <div className='w-full flex flex-col items-center justify-center p-10 gap-4'>
             <div className='flex items-center justify-center gap-2 text-slate-700'>
                 <FaPhone className='w-5 h-5 lg:w-6 lg:h-6'/>
-                <h3 className= 'text-base md:text-xl font-medium'>444 09 39</h3>
+                <h3 className= 'text-base md:text-lg font-medium'>444 09 39</h3>
             </div>
             <div className='flex items-center justify-center gap-2 text-slate-700'>
                 <MdEmail className='w-5 h-5 lg:w-6 lg:h-6'/>
-                <h3 className='text-base md:text-xl font-medium'>ibs@beylikduzu.istanbul</h3>
+                <h3 className='text-base md:text-lg font-medium'>ibs@beylikduzu.istanbul</h3>
             </div>
         </div>  
         <div className="flex items-center justify-center w-full">
