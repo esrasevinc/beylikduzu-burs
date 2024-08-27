@@ -2,9 +2,11 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "@/public/images/bb-logo.png";
 import { MdOutlineMenu } from "react-icons/md";
+import { MdClose } from "react-icons/md";
+
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -13,9 +15,17 @@ const Navbar = () => {
     setOpen((open) => !open);
   };
 
+  useEffect(() => {
+    if (open) {
+      document.body.classList.add("overflow-y-hidden");
+    } else {
+      document.body.classList.remove("overflow-y-hidden");
+    }
+  });
+
 
   return (
-    <header className="bg-bb-blue z-[1000] h-[72px] md:h-auto w-full fixed flex border-b-[6px] border-b-bb-green md:top-0">
+    <header className="bg-bb-blue z-[1000] h-[74px] md:h-auto w-full fixed flex border-b-[6px] border-b-bb-green md:top-0">
       <div className="flex flex-row justify-around items-center w-full">
         <Link href={'/'}>
         <Image 
@@ -28,17 +38,21 @@ const Navbar = () => {
         </Link>
 
         <div className="absolute right-5 md:hidden" onClick={() => toggleMenu()}>
+              {open ? 
+              <MdClose className="text-white w-8 h-8" />
+              :
               <MdOutlineMenu
                 className="text-white w-8 h-8"
               />
+            }
             </div>
 
             {open && (
-              <div className='bg-bb-blue h-screen flex '>
-                <Link href="/basvuru-sartlari" onClick={toggleMenu}>
+              <div className='bg-bb-blue fixed bottom-0 right-0 left-0 top-[68px] overflow-hidden flex flex-col lg:hidden transition-all duration-500 ease-in-out text-white text-base items-start pt-10 px-6 gap-6'>
+                <Link href="/" onClick={toggleMenu}>
                   Başvuru Şartları
                 </Link>
-                <Link href="/sik-sorulan-sorular" onClick={toggleMenu}>
+                <Link href="/sikca-sorulan-sorular" onClick={toggleMenu}>
                    Sık Sorulan Sorular
                 </Link>
                 <Link href="/sonuclar" onClick={toggleMenu}>
