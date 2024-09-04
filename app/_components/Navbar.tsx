@@ -53,7 +53,7 @@ const Navbar = () => {
                   Başvuru Şartları
                 </Link>
                 <Link href="/sikca-sorulan-sorular" onClick={toggleMenu}>
-                   Sık Sorulan Sorular
+                   Sıkça Sorulan Sorular
                 </Link>
                 <Link href="/sonuclar" onClick={toggleMenu}>
                   Sonuçlar

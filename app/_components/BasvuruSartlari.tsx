@@ -3,6 +3,8 @@ import { FaAngleRight } from "react-icons/fa";
 import { MdCancel } from "react-icons/md";
 import banner from '@/public/images/banner.jpg'
 import Image from "next/image";
+import Link from 'next/link';
+import { GrFormNextLink } from "react-icons/gr";
 
 const BasvuruSartlari = () => {
   return (
@@ -21,6 +23,11 @@ const BasvuruSartlari = () => {
         <div className="lg:mt-36 mt-8 sm:mt-24 h-full flex flex-col items-center">
         <h1 className='text-3xl md:text-4xl lg:text-5xl text-white font-bold text-center mx-2'>Beylikdüzü Genç Üniversiteli Eğitim Yardımı</h1>
         <p className='text-white mt-2 text-xs md:text-base text-center mx-4 md:mx-12 lg:mx-48 md:mt-8'>Eğitim hayatınıza katkıda bulunmak ve geleceğinizi desteklemek amacıyla, Beylikdüzü Belediyesi olarak üniversite öğrencilerine burs desteği sunuyoruz. Bu burs programı, ekonomik açıdan ihtiyaç duyan öğrencilerin eğitimlerini daha rahat sürdürebilmeleri ve başarılarına odaklanabilmeleri için hayata geçirilmiştir. Başvuru süreci ve gerekli belgeler hakkında detaylı bilgiye bu portal üzerinden ulaşabilir ve burs başvurunuzu kolayca gerçekleştirebilirsiniz. Siz de hemen başvurarak geleceğinize bir adım daha atabilirsiniz!</p>
+        <Link 
+        className='bg-bb-green hover:bg-bb-green/70 rounded-full px-4 py-2 text-white transition-all mt-4 md:text-lg'
+        href='/sonuclar'
+        >Sonuç Getir
+        </Link>
         </div>
         </div>
     </div>
