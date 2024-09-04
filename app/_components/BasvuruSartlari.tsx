@@ -1,14 +1,31 @@
 import React from 'react'
 import { FaAngleRight } from "react-icons/fa";
 import { MdCancel } from "react-icons/md";
+import banner from '@/public/images/banner.jpg'
+import Image from "next/image";
 
 const BasvuruSartlari = () => {
   return (
-    <div className='flex flex-col w-full items-center max-w-7xl px-10 md:px-20'>
-    <div className='w-full flex flex-col items-center justify-center pb-6 md:pb-12'>
-        <h1 className='text-xl md:text-2xl lg:text-4xl text-bb-green font-bold'>Beylikdüzü Genç Üniversiteli Eğitim Yardımı</h1>
-        <p className='text-slate-700 mt-2 text-sm md:text-base'>Eğitim hayatınıza katkıda bulunmak ve geleceğinizi desteklemek amacıyla, Beylikdüzü Belediyesi olarak üniversite öğrencilerine burs desteği sunuyoruz. Bu burs programı, ekonomik açıdan ihtiyaç duyan öğrencilerin eğitimlerini daha rahat sürdürebilmeleri ve başarılarına odaklanabilmeleri için hayata geçirilmiştir. Başvuru süreci ve gerekli belgeler hakkında detaylı bilgiye bu portal üzerinden ulaşabilir ve burs başvurunuzu kolayca gerçekleştirebilirsiniz. Siz de hemen başvurarak geleceğinize bir adım daha atabilirsiniz!</p>
+    <div className='w-full flex flex-col items-center justify-center'>
+    <div className='relative w-full'>
+        <Image 
+        src={banner}
+        alt='Banner Görseli'
+        aria-hidden="true"
+        width={1000}
+        height={500}
+        style={{ maxWidth: "100%", height: "auto" }}
+        className="max-h-[500px] min-h-[350px] w-full object-cover object-center brightness-50 saturate-100"
+        />
+        <div className="z-10 absolute h-full w-full top-0">
+        <div className="lg:mt-36 mt-8 sm:mt-24 h-full flex flex-col items-center">
+        <h1 className='text-3xl md:text-4xl lg:text-5xl text-white font-bold text-center mx-2'>Beylikdüzü Genç Üniversiteli Eğitim Yardımı</h1>
+        <p className='text-white mt-2 text-xs md:text-base text-center mx-4 md:mx-12 lg:mx-48 md:mt-8'>Eğitim hayatınıza katkıda bulunmak ve geleceğinizi desteklemek amacıyla, Beylikdüzü Belediyesi olarak üniversite öğrencilerine burs desteği sunuyoruz. Bu burs programı, ekonomik açıdan ihtiyaç duyan öğrencilerin eğitimlerini daha rahat sürdürebilmeleri ve başarılarına odaklanabilmeleri için hayata geçirilmiştir. Başvuru süreci ve gerekli belgeler hakkında detaylı bilgiye bu portal üzerinden ulaşabilir ve burs başvurunuzu kolayca gerçekleştirebilirsiniz. Siz de hemen başvurarak geleceğinize bir adım daha atabilirsiniz!</p>
+        </div>
+        </div>
     </div>
+    <div className='flex flex-col w-full items-center max-w-7xl px-10 md:px-20 my-12 lg:my-16'>
+
     <div className=' w-full grid grid-cols-1 md:grid-cols-2 items-start justify-center  flex-col lg:flex-row gap-10 '>
         <div className='flex flex-col'>
             
@@ -112,6 +129,7 @@ const BasvuruSartlari = () => {
         
         </div>
         </div>
+    </div>
     </div>
     </div>
   )

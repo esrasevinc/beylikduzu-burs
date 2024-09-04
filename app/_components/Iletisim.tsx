@@ -10,7 +10,7 @@ const Iletisim = () => {
         <div className='p-3 md:p-6 w-full items-center justify-center flex bg-bb-green md:rounded-t-xl'>
             <h3 className='text-white text-center text-lg md:text-xl lg:text-2xl font-semibold'>Bize Ulaşın</h3>
         </div>
-        <div className='w-full flex flex-col items-center justify-center p-10 gap-4'>
+        <div className='w-full flex flex-col items-center justify-centep-10 gap-4 py-4'>
             <div className='flex items-center justify-center gap-2 text-slate-700'>
                 <FaPhone className='w-5 h-5 lg:w-6 lg:h-6'/>
                 <h3 className= 'text-base md:text-lg font-medium'>444 09 39</h3>
