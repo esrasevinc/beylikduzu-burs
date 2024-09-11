@@ -4,7 +4,7 @@ import { MdCancel } from "react-icons/md";
 import banner from '@/public/images/banner.jpg'
 import Image from "next/image";
 import Link from 'next/link';
-import { GrFormNextLink } from "react-icons/gr";
+
 
 const BasvuruSartlari = () => {
   return (
@@ -17,7 +17,7 @@ const BasvuruSartlari = () => {
         width={1000}
         height={500}
         style={{ maxWidth: "100%", height: "auto" }}
-        className="max-h-[500px] min-h-[350px] w-full object-cover object-center brightness-50 saturate-100"
+        className="max-h-[500px] min-h-[350px] w-full object-cover object-center brightness-50 saturate-100 opacity-90"
         />
         <div className="z-10 absolute h-full w-full top-0">
         <div className="lg:mt-36 mt-8 sm:mt-24 h-full flex flex-col items-center">
