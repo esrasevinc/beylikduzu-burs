@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Sonuc = () => {
@@ -11,7 +12,11 @@ const Sonuc = () => {
             <input  type="text" maxLength={11} minLength={11} className='rounded px-2 py-1 w-full'/>
             <label htmlFor="dogum-tarihi" className='text-sm md:text-base mt-4' >Doğum Tarihi</label>
             <input  type="date"  className='rounded px-2 py-1 w-full'/>
-            <button type='button' className='bg-bb-green hover:bg-bb-green/70 rounded-full px-4 py-2 text-white transition-all mt-6 lg:mt-10 md:text-lg'>Sonuç Getir</button>
+            <Link 
+            href="/"
+            className='bg-bb-green hover:bg-bb-green/70 rounded-full px-4 py-2 text-white transition-all mt-6 lg:mt-10 md:text-lg items-center text-center'>
+              Sonuç Getir
+            </Link>
             </div>
         </form>
         </div>

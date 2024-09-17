@@ -2,7 +2,6 @@
 import React from "react";
 import { Accordion, AccordionItem as Item } from "@szhsin/react-accordion";
 import { FaChevronDown } from "react-icons/fa";
-import Link from "next/link";
 
 type Props = {};
 
