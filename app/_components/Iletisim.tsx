@@ -17,7 +17,7 @@ const Iletisim = () => {
             </div>
             <div className='flex items-center justify-center gap-2 text-slate-700'>
                 <MdEmail className='w-5 h-5 lg:w-6 lg:h-6'/>
-                <h3 className='text-base md:text-lg font-medium'>ibs@beylikduzu.istanbul</h3>
+                <h3 className='text-base md:text-lg font-medium'>Kadın ve Aile Müdürlüğü</h3>
             </div>
         </div>  
         <div className="flex items-center justify-center w-full">

@@ -63,10 +63,10 @@ const Navbar = () => {
                 </Link>
               </div>
             )} 
-        <div className="hidden md:flex gap-2 lg:gap-4">
+        <div className="hidden md:flex gap-2 lg:gap-8 mx-[10px] my-[25px] items-center justify-center">
                   <div className="relative list-none">
                     <Link
-                      className="block hover:text-slate-200 text-white text-sm lg:text-base px-[10px] py-[25px]"
+                      className="block hover:text-slate-200 text-white text-sm lg:text-base "
                       href={"/"}
                     >
                       Başvuru Şartları
@@ -74,7 +74,7 @@ const Navbar = () => {
                   </div>
                   <div className="relative list-none">
                     <Link
-                      className="block hover:text-slate-200 text-white text-sm lg:text-base px-[10px] py-[25px] "
+                      className="block hover:text-slate-200 text-white text-sm lg:text-base  "
                       href={"/sikca-sorulan-sorular"}
                     >
                       Sıkça Sorulan Sorular
@@ -82,7 +82,7 @@ const Navbar = () => {
                   </div>
                   <div className="relative list-none">
                     <Link
-                      className="block hover:text-slate-200 text-white text-sm lg:text-base px-[10px] py-[25px]"
+                      className="block hover:text-slate-200 text-white text-sm lg:text-base "
                       href={"/sonuclar"}
                     >
                       Sonuçlar
@@ -90,10 +90,10 @@ const Navbar = () => {
                   </div>
                   <div className="relative list-none">
                     <Link
-                      className="block hover:text-slate-200 text-white text-sm lg:text-base px-[10px] py-[25px]"
-                      href={"/iletisim"}
+                      className="block bg-white text-bb-green rounded-full px-4 py-2 text-sm lg:text-base font-semibold hover:bg-bb-green hover:text-white transition-all"
+                      href={"/basvur"}
                     >
-                      İletişim
+                      Başvur
                     </Link>
                   </div>
         </div>
