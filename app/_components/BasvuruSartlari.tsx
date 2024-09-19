@@ -23,10 +23,10 @@ const BasvuruSartlari = () => {
         <div className="lg:mt-28 mt-4 sm:mt-20 h-full flex flex-col items-center">
         <h1 className='text-lg md:text-2xl lg:text-3xl text-white font-semibold text-center mx-2'>BEYLİKDÜZÜ BELEDİYESİ</h1>
         <h1 className='text-base md:text-xl  text-white font-semibold text-center mx-2'>2024- 2025 Eğitim Öğretim Yılı</h1>
-        <h1 className='text-3xl md:text-4xl lg:text-5xl text-white font-bold text-center mx-2 my-4'>Yarına Umut Projesi</h1>
-        <p className='text-white mt-2 text-xs md:text-base text-center mx-4 md:mx-12 lg:mx-48 md:mt-8'>Eğitim hayatınıza katkıda bulunmak ve geleceğinizi desteklemek amacıyla, Beylikdüzü Belediyesi olarak üniversite öğrencilerine burs desteği sunuyoruz. Bu burs programı, ekonomik açıdan ihtiyaç duyan öğrencilerin eğitimlerini daha rahat sürdürebilmeleri ve başarılarına odaklanabilmeleri için hayata geçirilmiştir. Başvuru süreci ve gerekli belgeler hakkında detaylı bilgiye bu portal üzerinden ulaşabilir ve burs başvurunuzu kolayca gerçekleştirebilirsiniz. Siz de hemen başvurarak geleceğinize bir adım daha atabilirsiniz!</p>
+        <h1 className='text-3xl md:text-4xl lg:text-5xl text-white font-bold text-center mx-2 lg:my-4'>Yarına Umut Projesi</h1>
+        <p className='text-white mt-1 text-xs md:text-base text-center mx-4 md:mx-12 lg:mx-48 md:mt-8'>Eğitim hayatınıza katkıda bulunmak ve geleceğinizi desteklemek amacıyla, Beylikdüzü Belediyesi olarak üniversite öğrencilerine burs desteği sunuyoruz. Bu burs programı, ekonomik açıdan ihtiyaç duyan öğrencilerin eğitimlerini daha rahat sürdürebilmeleri ve başarılarına odaklanabilmeleri için hayata geçirilmiştir. Başvuru süreci ve gerekli belgeler hakkında detaylı bilgiye bu portal üzerinden ulaşabilir ve burs başvurunuzu kolayca gerçekleştirebilirsiniz. Siz de hemen başvurarak geleceğinize bir adım daha atabilirsiniz!</p>
         <Link 
-        className='bg-bb-green hover:bg-bb-green/70 rounded-full px-4 py-2 text-white transition-all mt-4 lg:mt-10 md:text-lg items-center text-center text-sm'
+        className='bg-bb-green hover:bg-bb-green/70 rounded-full px-4 py-2 text-white transition-all mt-2 md:mt-4 lg:mt-10 md:text-lg items-center text-center text-sm'
         href='/basvur'
         >Başvuru Yap
         </Link>
@@ -135,6 +135,75 @@ const BasvuruSartlari = () => {
             <p>Sonucuna göre tarafınıza beyan ettiğiniz numara üzerinden arama gerçekleştirilecektir.</p>
         </div>
         
+        </div>
+        </div>
+        
+    </div>
+    <div className='flex flex-col w-full'>
+    <h1 className='text-xl md:text-2xl lg:text-3xl text-bb-blue font-bold pb-2  mt-4 lg:mt-12'>Gerekli Belgeler</h1>
+    <div className='flex flex-col md:flex-row items-start justify-start bg-bb-green/70  md:min-h-[368px] w-full md:gap-10'>
+        <div className='flex flex-col gap-4 rounded px-4 py-4 text-sm md:text-base items-start justify-start'>
+        
+        <h3 className='text-lg lg:text-xl text-white font-medium'>Öğrenci Bilgileri</h3>
+        <div className='flex text-white gap-2'>
+            <span><FaAngleRight className='w-6 h-6'/></span>
+            <p>Nüfus cüzdan fotokopisi</p>
+        </div>
+        <div className='flex  text-white gap-2'>
+            <span><FaAngleRight className='w-6 h-6'/></span>
+            <p>İkametgah adresi</p>
+        </div>
+        <div className='flex  text-white gap-2'>
+            <span><FaAngleRight className='w-6 h-6'/></span>
+            <p>Telefon numarası</p>
+        </div>
+        <div className='flex  text-white gap-2'>
+            <span><FaAngleRight className='w-6 h-6'/></span>
+            <p>Öğrenci belgesi ve not durumunu gösteren transkript</p>
+        </div>
+        <div className='flex text-white gap-2'>
+            <span><FaAngleRight className='w-6 h-6'/></span>
+            <p>Bursluluk belgesi</p>
+        </div>
+        <div className='flex text-white gap-2'>
+            <span><FaAngleRight className='w-6 h-6'/></span>
+            <p>Devam edilen okuldan alınacak öğrenci belgesi</p>
+        </div>
+        <div className='flex text-white gap-2'>
+            <span><FaAngleRight className='w-6 h-6'/></span>
+            <p>YKS yerleştirme sonuçları belgesi</p>
+        </div>
+        <div className='flex text-white gap-2'>
+            <span><FaAngleRight className='w-6 h-6'/></span>
+            <p>Adli sicil kaydı (E-devlet)</p>
+        </div>
+        <div className='flex text-white gap-2'>
+            <span><FaAngleRight className='w-6 h-6'/></span>
+            <p>Banka hesap bilgilerini içeren belge</p>
+        </div>
+        <div className='flex text-white gap-2'>
+            <span><FaAngleRight className='w-6 h-6'/></span>
+            <p>Varsa kendisinin ya da aile bireylerinin engelli raporu fotokopisi </p>
+        </div>
+        </div>
+        <div className='flex flex-col items-start justify-start gap-4 px-4 py-4 text-sm md:text-base'>
+        <h3 className='text-lg lg:text-xl text-white font-medium'>Hanede Yaşayan Bireyler</h3>
+        <div className='flex text-white gap-2'>
+            <span><FaAngleRight className='w-6 h-6'/></span>
+            <p>Aynı hanede yaşayan kişi belgesi (E-devlet)</p>
+        </div>
+        <div className='flex text-white gap-2'>
+            <span><FaAngleRight className='w-6 h-6'/></span>
+            <p>SGK Hizmet Dökümü (Barkodlu) (E-Devlet)</p>
+        </div>
+        <div className='flex text-white gap-2'>
+            <span><FaAngleRight className='w-6 h-6'/></span>
+            <p>Tapu Kaydı Bilgisi (E-Devlet)</p>
+        </div>
+        <div className='flex text-white gap-2'>
+            <span><FaAngleRight className='w-6 h-6'/></span>
+            <p>Araç Kaydı Bilgisi(E-Devlet)</p>
+        </div>
         </div>
         </div>
         

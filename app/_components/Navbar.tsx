@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <header className="bg-bb-blue z-[1000] h-[74px] md:h-auto w-full fixed flex border-b-[6px] border-b-bb-green md:top-0">
       <div className="flex flex-row justify-around items-center w-full">
-        <Link href={'/'}>
+        <Link href={'/'} onClick={() => toggleMenu()}>
         <Image 
         src={logo}
         alt="BB Logo"
@@ -58,9 +58,13 @@ const Navbar = () => {
                 <Link href="/sonuclar" onClick={toggleMenu}>
                   Sonuçlar
                 </Link>
-                <Link href="/iletisim" onClick={toggleMenu}>
-                  İletişim
-                </Link>
+                <Link
+                onClick={toggleMenu}
+                      className="block bg-white text-bb-green rounded-full px-4 py-2 text-base font-semibold hover:bg-bb-green hover:text-white transition-all"
+                      href={"/basvur"}
+                    >
+                      Başvur
+                    </Link>
               </div>
             )} 
         <div className="hidden md:flex gap-2 lg:gap-8 mx-[10px] my-[25px] items-center justify-center">
