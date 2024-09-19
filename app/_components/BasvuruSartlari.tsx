@@ -41,31 +41,31 @@ const BasvuruSartlari = () => {
             
         <h1 className='text-xl md:text-2xl lg:text-3xl text-bb-blue font-bold pb-2'>Başvuru Genel Koşulları</h1>
         <div className='flex flex-col items-start justify-start gap-4 bg-bb-green/70 rounded px-4 py-4 text-sm md:text-base lg:min-h-[368px]'>
-        <div className='flex items-start justify-center text-white'>
+        <div className='flex items-center justify-center text-white'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Türkiye Cumhuriyeti vatandaşı olmak</p>
         </div>
-        <div className='flex items-start justify-center text-white'>
+        <div className='flex items-center justify-center text-white'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Öğrencinin Beylikdüzü&apos;nde ikamet etmesi veya ailesinin/anne-baba vefat durumunda yakınının Beylikdüzü&apos;nde ikamet etmesi</p>
         </div>
-        <div className='flex items-start justify-center text-white'>
+        <div className='flex items-center justify-center text-white'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Ön lisans veya Lisans öğrencisi olmak</p>
         </div>
-        <div className='flex items-start justify-center text-white'>
+        <div className='flex items-center justify-center text-white'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Normal öğrenim süresinin içinde eğitimine devam ediyor olmak</p>
         </div> 
-        <div className='flex items-start justify-center text-white'>
+        <div className='flex items-center justify-center text-white'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Devlet üniversitesinde okuyor olmak veya vakıf /özel üniversitede %100 burslu okuyor olmak</p>
         </div>
-        <div className='flex items-start justify-center text-white'>
+        <div className='flex items-center justify-center text-white'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Ara ve son sınıf öğrencileri için yılsonu başarı notunun en az 100 üzerinden 53 ya da 4,00 üzerinden 2,00 olması</p>
         </div>
-        <div className='flex items-start justify-center text-white'>
+        <div className='flex items-center justify-center text-white'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Gelir durumu açısından maddi desteğe ihtiyacı olmak **</p>
         </div>
@@ -76,27 +76,27 @@ const BasvuruSartlari = () => {
         <div className='flex flex-col'>
         <h1 className='text-xl md:text-2xl lg:text-3xl text-bb-blue font-bold pb-2'>Başvuru Yapamayacak Öğrenciler</h1>
         <div className='flex flex-col items-start justify-start gap-4 bg-bb-green/70 rounded px-4 py-4 text-sm md:text-base md:min-h-[368px]'>
-        <div className='flex items-start justify-center text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><MdCancel className='w-6 h-6'/></span>
             <p>Açık öğretimde okuyan öğrenciler</p>
         </div>
-        <div className='flex items-start justify-center text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><MdCancel className='w-6 h-6'/></span>
             <p>Yurtdışında öğrenim gören öğrenciler</p>
         </div>
-        <div className='flex items-start justify-center text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><MdCancel className='w-6 h-6'/></span>
             <p>Ücretli değişim programında bulunanlar</p>
         </div>
-        <div className='flex items-start justify-center text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><MdCancel className='w-6 h-6'/></span>
             <p>Ön lisans ve Lisans 30 yaşından büyükler</p>
         </div>
-        <div className='flex items-start justify-center text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><MdCancel className='w-6 h-6'/></span>
             <p>Öğrenim görüyorken yüz kızartıcı bir eylemden dolayı disiplin cezası alanlar</p>
         </div>
-        <div className='flex items-start justify-center text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><MdCancel className='w-6 h-6'/></span>
             <p>Sabıka kaydı olanlar</p>
         </div>
@@ -106,11 +106,11 @@ const BasvuruSartlari = () => {
         <div className='flex flex-col'>
         <h1 className='text-xl md:text-2xl lg:text-3xl text-bb-blue font-bold pb-2'>Değerlendirme Yöntemi</h1>
         <div className='flex flex-col items-start justify-start gap-4 bg-bb-green/70 rounded px-4 py-4 text-sm md:text-base md:min-h-[368px]'>
-        <div className='flex items-start justify-center text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Eğitim yardımı, Değerlendirme Komisyonuyla karara bağlanacaktır.</p>
         </div>
-        <div className='flex items-start justify-center text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Eğitim yardımına başvuru esnasında istenen belgelerin eksiksiz olarak yüklenmesi
             gerekmektedir. Eksik evrak yüklenmesi durumunda başvuru değerlendirmeye alınmayacaktır.</p>
@@ -121,17 +121,17 @@ const BasvuruSartlari = () => {
         <div className='flex flex-col'>
         <h1 className='text-xl md:text-2xl lg:text-3xl text-bb-blue font-bold pb-2'>Bilgilendirme</h1>
         <div className='flex flex-col items-start justify-start gap-4 bg-bb-green/70 rounded px-4 py-4 text-sm md:text-base md:min-h-[368px]'>
-        <div className='flex items-start justify-center text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Eğitim yardımı başvurularınızı ve evrak işlemlerinizi web sayfamız <a className='underline' href="https://www.beylikduzu.istanbul">www.beylikduzu.istanbul</a> üzerinden gerçekleştirebilirsiniz.</p>
              
         </div>
-        <div className='flex items-start justify-center text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Bilgilerinizin doğruluğundan emin olun. Onaylamanız durumunda, başvuru sırasında beyan
             ettiğiniz evraklardaki bilgiler esas alınacaktır.</p>
         </div>
-        <div className='flex items-start justify-center text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Sonucuna göre tarafınıza beyan ettiğiniz numara üzerinden arama gerçekleştirilecektir.</p>
         </div>
@@ -141,67 +141,67 @@ const BasvuruSartlari = () => {
         
     </div>
     <div className='flex flex-col w-full'>
-    <h1 className='text-xl md:text-2xl lg:text-3xl text-bb-blue font-bold pb-2  mt-4 lg:mt-12'>Gerekli Belgeler</h1>
-    <div className='flex flex-col md:flex-row items-start justify-start bg-bb-green/70  md:min-h-[368px] w-full md:gap-10'>
+    <h1 className='text-xl md:text-2xl lg:text-3xl text-bb-blue font-bold pb-2  mt-10 lg:mt-12'>Gerekli Belgeler</h1>
+    <div className='flex flex-col md:flex-row items-start justify-start bg-bb-green/70 rounded md:min-h-[368px] w-full md:gap-10'>
         <div className='flex flex-col gap-4 rounded px-4 py-4 text-sm md:text-base items-start justify-start'>
         
         <h3 className='text-lg lg:text-xl text-white font-medium'>Öğrenci Bilgileri</h3>
-        <div className='flex text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Nüfus cüzdan fotokopisi</p>
         </div>
-        <div className='flex  text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>İkametgah adresi</p>
         </div>
-        <div className='flex  text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Telefon numarası</p>
         </div>
-        <div className='flex  text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Öğrenci belgesi ve not durumunu gösteren transkript</p>
         </div>
-        <div className='flex text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Bursluluk belgesi</p>
         </div>
-        <div className='flex text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Devam edilen okuldan alınacak öğrenci belgesi</p>
         </div>
-        <div className='flex text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>YKS yerleştirme sonuçları belgesi</p>
         </div>
-        <div className='flex text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Adli sicil kaydı (E-devlet)</p>
         </div>
-        <div className='flex text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Banka hesap bilgilerini içeren belge</p>
         </div>
-        <div className='flex text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Varsa kendisinin ya da aile bireylerinin engelli raporu fotokopisi </p>
         </div>
         </div>
         <div className='flex flex-col items-start justify-start gap-4 px-4 py-4 text-sm md:text-base'>
         <h3 className='text-lg lg:text-xl text-white font-medium'>Hanede Yaşayan Bireyler</h3>
-        <div className='flex text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Aynı hanede yaşayan kişi belgesi (E-devlet)</p>
         </div>
-        <div className='flex text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>SGK Hizmet Dökümü (Barkodlu) (E-Devlet)</p>
         </div>
-        <div className='flex text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Tapu Kaydı Bilgisi (E-Devlet)</p>
         </div>
-        <div className='flex text-white gap-2'>
+        <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Araç Kaydı Bilgisi (E-Devlet)</p>
         </div>

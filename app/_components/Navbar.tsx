@@ -50,6 +50,9 @@ const Navbar = () => {
             {open && (
               <div className='bg-bb-blue fixed bottom-0 right-0 left-0 top-[68px] overflow-hidden flex flex-col lg:hidden transition-all duration-500 ease-in-out text-white text-base items-start pt-10 px-6 gap-6'>
                 <Link href="/" onClick={toggleMenu}>
+                  Yarına Umut Projesi
+                </Link>
+                <Link href="/basvuru-sartlari" onClick={toggleMenu}>
                   Başvuru Şartları
                 </Link>
                 <Link href="/sikca-sorulan-sorular" onClick={toggleMenu}>
@@ -72,7 +75,7 @@ const Navbar = () => {
                   <div className="relative list-none">
                     <Link
                       className="block hover:text-slate-200 text-white text-sm lg:text-base "
-                      href={"/"}
+                      href={"/basvuru-sartlari"}
                     >
                       Başvuru Şartları
                     </Link>
