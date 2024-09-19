@@ -27,7 +27,8 @@ const BasvuruSartlari = () => {
         <p className='text-white mt-1 text-xs md:text-base text-center mx-4 md:mx-12 lg:mx-48 md:mt-8'>Eğitim hayatınıza katkıda bulunmak ve geleceğinizi desteklemek amacıyla, Beylikdüzü Belediyesi olarak üniversite öğrencilerine burs desteği sunuyoruz. Bu burs programı, ekonomik açıdan ihtiyaç duyan öğrencilerin eğitimlerini daha rahat sürdürebilmeleri ve başarılarına odaklanabilmeleri için hayata geçirilmiştir. Başvuru süreci ve gerekli belgeler hakkında detaylı bilgiye bu portal üzerinden ulaşabilir ve burs başvurunuzu kolayca gerçekleştirebilirsiniz. Siz de hemen başvurarak geleceğinize bir adım daha atabilirsiniz!</p>
         <Link 
         className='bg-bb-green hover:bg-bb-green/70 rounded-full px-4 py-2 text-white transition-all mt-2 md:mt-4 lg:mt-10 md:text-lg items-center text-center text-sm'
-        href='/basvur'
+        href='https://ulakbel.beylikduzu.bel.tr/WebBasvuru/yarina-umut#/'
+        target='_blank'
         >Başvuru Yap
         </Link>
         </div>
@@ -202,7 +203,7 @@ const BasvuruSartlari = () => {
         </div>
         <div className='flex text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
-            <p>Araç Kaydı Bilgisi(E-Devlet)</p>
+            <p>Araç Kaydı Bilgisi (E-Devlet)</p>
         </div>
         </div>
         </div>

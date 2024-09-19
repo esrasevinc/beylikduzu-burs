@@ -61,7 +61,8 @@ const Navbar = () => {
                 <Link
                 onClick={toggleMenu}
                       className="block bg-white text-bb-green rounded-full px-4 py-2 text-base font-semibold hover:bg-bb-green hover:text-white transition-all"
-                      href={"/basvur"}
+                      href='https://ulakbel.beylikduzu.bel.tr/WebBasvuru/yarina-umut#/'
+                      target="_blank"
                     >
                       Başvur
                     </Link>
@@ -95,7 +96,8 @@ const Navbar = () => {
                   <div className="relative list-none">
                     <Link
                       className="block bg-white text-bb-green rounded-full px-4 py-2 text-sm lg:text-base font-semibold hover:bg-bb-green hover:text-white transition-all"
-                      href={"/basvur"}
+                      href='https://ulakbel.beylikduzu.bel.tr/WebBasvuru/yarina-umut#/'
+                      target="_blank"
                     >
                       Başvur
                     </Link>
