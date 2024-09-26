@@ -50,7 +50,7 @@ const Navbar = () => {
             {open && (
               <div className='bg-bb-blue fixed bottom-0 right-0 left-0 top-[68px] overflow-hidden flex flex-col lg:hidden transition-all duration-500 ease-in-out text-white text-base items-start pt-10 px-6 gap-6'>
                 <Link href="/" onClick={toggleMenu}>
-                  Yarına Umut Projesi
+                  Yarının Öncüsü Gençler Projesi
                 </Link>
                 <Link href="/basvuru-sartlari" onClick={toggleMenu}>
                   Başvuru Şartları
@@ -64,7 +64,7 @@ const Navbar = () => {
                 <Link
                 onClick={toggleMenu}
                       className="block bg-white text-bb-green rounded-full px-4 py-2 text-base font-semibold hover:bg-bb-green hover:text-white transition-all"
-                      href='https://ulakbel.beylikduzu.bel.tr/WebBasvuru/yarina-umut#/'
+                      href='https://ulakbel.beylikduzu.bel.tr/WebBasvuru/yarinin-oncusu-gencler#/'
                       target="_blank"
                     >
                       Başvur
@@ -99,7 +99,7 @@ const Navbar = () => {
                   <div className="relative list-none">
                     <Link
                       className="block bg-white text-bb-green rounded-full px-4 py-2 text-sm lg:text-base font-semibold hover:bg-bb-green hover:text-white transition-all"
-                      href='https://ulakbel.beylikduzu.bel.tr/WebBasvuru/yarina-umut#/'
+                      href='https://ulakbel.beylikduzu.bel.tr/WebBasvuru/yarinin-oncusu-gencler#/'
                       target="_blank"
                     >
                       Başvur

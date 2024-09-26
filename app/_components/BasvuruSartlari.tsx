@@ -27,7 +27,7 @@ const BasvuruSartlari = () => {
         <p className='text-lg md:text-xl lg:text-2xl text-white font-semibold text-center mx-2 mt-1 lg:mt-2'>Eğitim Destek Programı</p>
         <Link 
         className='bg-bb-green hover:bg-bb-green/70 rounded-full px-4 py-2 text-white transition-all mt-2 md:mt-4 lg:mt-10 md:text-lg items-center text-center text-sm'
-        href='https://ulakbel.beylikduzu.bel.tr/WebBasvuru/yarina-umut#/'
+        href='https://ulakbel.beylikduzu.bel.tr/WebBasvuru/yarinin-oncusu-gencler#/'
         target='_blank'
         >Başvuru Yap
         </Link>
