@@ -5,8 +5,8 @@ const Sonuc = () => {
   return (
     <div className='items-center justify-center flex w-full'>
         <div className='md:items-start h-screen md:h-auto items-center justify-center max-w-7xl w-full flex flex-col px-10 md:px-20 py-10 md:py-16  md:mx-20 md:my-20 bg-bb-blue/20 drop-shadow-lg md:rounded-t-xl md:rounded-b-xl'>
-        <h1 className='text-xl md:text-2xl lg:text-4xl text-bb-blue font-semibold text-center'>Yarına Umut Projesi</h1>
-        <p className='text-xl md:text-2xl lg:text-3xl text-bb-blue font-semibold text-center'>Beylikdüzü Genç Üniversiteli Eğitim Yardımı</p>
+        <h1 className='text-xl md:text-2xl lg:text-4xl text-bb-blue font-semibold text-center'>Yarının Öncüsü Gençler</h1>
+        <p className='text-xl md:text-2xl lg:text-3xl text-bb-blue font-semibold text-center'>Eğitim Yardımı</p>
         <form className='text-bb-blue pt-8'>
             <div className='gap-2 flex flex-col'>
             <label htmlFor="tc" className='text-sm md:text-base' >TC Kimlik No</label>

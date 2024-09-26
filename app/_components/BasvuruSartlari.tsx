@@ -22,9 +22,9 @@ const BasvuruSartlari = () => {
         <div className="z-10 absolute h-full w-full top-0">
         <div className="lg:mt-28 mt-4 sm:mt-20 h-full flex flex-col items-center">
         <h1 className='text-lg md:text-2xl lg:text-3xl text-white font-semibold text-center mx-2'>BEYLİKDÜZÜ BELEDİYESİ</h1>
-        <h1 className='text-base md:text-xl  text-white font-semibold text-center mx-2'>2024- 2025 Eğitim Öğretim Yılı</h1>
-        <h1 className='text-3xl md:text-4xl lg:text-5xl text-white font-bold text-center mx-2 lg:my-4'>Yarına Umut Projesi</h1>
-        <p className='text-white mt-1 text-xs md:text-base text-center mx-4 md:mx-12 lg:mx-48 md:mt-8'>Eğitim hayatınıza katkıda bulunmak ve geleceğinizi desteklemek amacıyla, Beylikdüzü Belediyesi olarak üniversite öğrencilerine burs desteği sunuyoruz. Bu burs programı, ekonomik açıdan ihtiyaç duyan öğrencilerin eğitimlerini daha rahat sürdürebilmeleri ve başarılarına odaklanabilmeleri için hayata geçirilmiştir. Başvuru süreci ve gerekli belgeler hakkında detaylı bilgiye bu portal üzerinden ulaşabilir ve burs başvurunuzu kolayca gerçekleştirebilirsiniz. Siz de hemen başvurarak geleceğinize bir adım daha atabilirsiniz!</p>
+        <h1 className='text-base md:text-xl  text-white font-semibold text-center mx-2'>2024 - 2025 Eğitim Öğretim Yılı</h1>
+        <h1 className='text-3xl md:text-4xl lg:text-5xl text-white font-bold text-center mx-2 lg:mt-4'>Yarının Öncüsü Gençler</h1>
+        <p className='text-lg md:text-xl lg:text-2xl text-white font-semibold text-center mx-2 mt-1 lg:mt-2'>Eğitim Destek Programı</p>
         <Link 
         className='bg-bb-green hover:bg-bb-green/70 rounded-full px-4 py-2 text-white transition-all mt-2 md:mt-4 lg:mt-10 md:text-lg items-center text-center text-sm'
         href='https://ulakbel.beylikduzu.bel.tr/WebBasvuru/yarina-umut#/'
@@ -63,7 +63,7 @@ const BasvuruSartlari = () => {
         </div>
         <div className='flex items-center justify-center text-white'>
             <span><FaAngleRight className='w-6 h-6'/></span>
-            <p>Ara ve son sınıf öğrencileri için yılsonu başarı notunun en az 100 üzerinden 53 ya da 4,00 üzerinden 2,00 olması</p>
+            <p>Ara ve son sınıf öğrencileri için yılsonu başarı notunun en az 100 üzerinden 50 ya da 4,00 üzerinden 2,00 olması</p>
         </div>
         <div className='flex items-center justify-center text-white'>
             <span><FaAngleRight className='w-6 h-6'/></span>
@@ -134,6 +134,10 @@ const BasvuruSartlari = () => {
         <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
             <p>Sonucuna göre tarafınıza beyan ettiğiniz numara üzerinden arama gerçekleştirilecektir.</p>
+        </div>
+        <div className='flex items-center justify-center text-white gap-2'>
+            <span><FaAngleRight className='w-6 h-6'/></span>
+            <p>İletişim için: 444 09 39 (Dahililer: 2757, 2760, 2727)</p>
         </div>
         
         </div>
@@ -213,6 +217,7 @@ const BasvuruSartlari = () => {
             <p>* Anne babanın vefat etmesi ya da boşanması (Sadece resmi olarak boşanmış aileler) durumunda öğrencinin
             ikamet ettiği aile bireyi esas alınır.</p>
             <p>** Gelir beyanına fazla mesai ve prim ücretleri dahil edilmez, bordro üstündeki net gelir baz alınır.</p>
+            <p>Bize Ulaşın: 444 09 39 (Dahililer: 2757, 2760, 2727)</p>
             </div>
     </div>
     </div>
