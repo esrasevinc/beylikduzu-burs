@@ -44,59 +44,194 @@ const SikcaSorulanSorular = (props: Props) => {
           </div>
             <div className="bg-slate-50 w-full" >
       <Accordion>
-        <AccordionItem header="Soru 1">
+        <AccordionItem header="Başvuru tarihleri içerisinde gerekli belgeleri okuldan temin edemiyorum. Nasıl bir yol izlemeliyim?">
           <div className="space-y-2">
             <p>
-              Cevap 1
+            Genç Üniversiteli Eğitim Yardımı başvuruları, üniversitelerin kayıt tarihi dikkate alınarak başlatıldığından belge temininde herhangi bir sorun olmamaktadır.
             </p>
            
           </div>
         </AccordionItem>
 
-        <AccordionItem header="Soru 2">
+        <AccordionItem header="Üniversite 1. Sınıf öğrencisiyim. Transkript ve disiplin cezası almadığıma dair belge yükleyemiyorum. Nasıl bir yol izlemeliyim?">
           <div className="space-y-2">
             <p>
-              Cevap 2
+            1. sınıf öğrencilerinden transkript ve disiplin belgesi istenmemektedir
             </p>
             
           </div>
         </AccordionItem>
         
-        <AccordionItem header="Soru 3">
+        <AccordionItem header="Anne ve baba ile iletişim halinde değilim. Ebeveynlerin gelir durumu belgesi için nasıl bir yol izlemeliyim?">
           <div className="space-y-2">
             <p>
-              Cevap 3
+            Resmi olarak anne-baba ayrı değil ise ikisinin de gelir durum belgesinin yüklenmesi gerekmektedir. Eğer boşanma süreci varsa ikisinden birinin gelir durum belgesi ve boşanma davasının devam ettiğine dair mahkeme belgesinin sisteme yüklenmesi gerekmektedir.
             </p>
           </div>
         </AccordionItem>
-        <AccordionItem header="Soru 4">
+        <AccordionItem header="Her yıl tekrar başvuru yapmam gerekir mi?">
           <div className="space-y-2">
             <p>
-              Cevap 4
-            </p>
-           
-          </div>
-        </AccordionItem>
-        <AccordionItem header="Soru 5">
-          <div className="space-y-2">
-            <p>
-              Cevap 5
+            Evet. Tekrar başvuru yaparak istenen belgeleri güncellemeniz gerekmektedir.
             </p>
            
           </div>
         </AccordionItem>
-        <AccordionItem header="Soru 6">
+        <AccordionItem header="Ebeveynlerim çalışmıyor. Çalışmadıklarına dair evrak nereden alınmalıdır?">
           <div className="space-y-2">
             <p>
-              Cevap 6
+            SGK’dan ya da E-Devlet sisteminden SGK Tescil Hizmet Dökümü temin edilmelidir.
             </p>
            
           </div>
         </AccordionItem>
-        <AccordionItem header="Soru 7">
+        <AccordionItem header="Ebeveynlerin gelir/gelirsizlik belgelerinin ayrı ayrı mı yüklenmesi gerekiyor?">
           <div className="space-y-2">
             <p>
-              Cevap 7
+            Evet. Ayrı yüklenmesi gerekmektedir.
+            </p>
+           
+          </div>
+        </AccordionItem>
+        <AccordionItem header="Üniversite eğitim kaydımı dondurdum. Eğitim yardımından faydalanabilir miyim?">
+          <div className="space-y-2">
+            <p>
+            Kayıt donduran öğrenciler eğitim yardımından yararlanamamaktadır.
+            </p>
+           
+          </div>
+        </AccordionItem>
+
+        <AccordionItem header="Bu yıl yatay geçiş yaptım. Başvuruda sunulacak evraklar hangi okulumdan alınmalıdır?">
+          <div className="space-y-2">
+            <p>
+            İki kurumdan birinden alınabilir. Hangisinden alınabiliyorsa, o okuldan alınan evrak geçerli sayılmaktadır.
+            </p>
+           
+          </div>
+        </AccordionItem>
+
+        <AccordionItem header="E-Devlet üzerinden alınan SGK Tescil Hizmet Dökümü, sisteme yüklemek için büyük bir dosya. Nasıl yol izlemeliyim?">
+          <div className="space-y-2">
+            <p>
+            E-Devlet üzerinden alınan belgenin tüm sayfaları pdf olarak sisteme yüklenmesi gerekmektedir.
+            </p>
+           
+          </div>
+        </AccordionItem>
+
+        <AccordionItem header="Maaş bordrosu geçtiğimiz son aya mı ait olmalıdır?">
+          <div className="space-y-2">
+            <p>
+            Evet. Yalnızca son aya ait maaş bordrosu geçerlidir.
+            </p>
+           
+          </div>
+        </AccordionItem>
+
+        <AccordionItem header="İkametim Beylikdüzü’nde ancak il dışında bir üniversiteye kayıtlıyım. Başvuru yapabilir miyim?">
+          <div className="space-y-2">
+            <p>
+            Evet. Başvuru yapılabilir.
+            </p>
+           
+          </div>
+        </AccordionItem>
+
+        <AccordionItem header="Açık Öğretim Fakültesi öğrencisiyim. Eğitim yardımından faydalanabilir miyim?">
+          <div className="space-y-2">
+            <p>
+            Hayır. Açık Öğretim Fakültesi öğrencileri başvuru yapamamaktadır.
+            </p>
+           
+          </div>
+        </AccordionItem>
+
+        <AccordionItem header="Aynı hanede iki üniversite öğrencisi eğitim yardımından faydalanabilir mi?">
+          <div className="space-y-2">
+            <p>
+            Evet, faydalanabilir.
+            </p>
+           
+          </div>
+        </AccordionItem>
+
+        <AccordionItem header="Vakıf üniversitesinde %50 burslu öğrenci olarak eğitim alıyorum. Eğitim yardımından faydalanabilir miyim?">
+          <div className="space-y-2">
+            <p>
+            Hayır. Yalnızca devlet üniversitelerinde eğitim gören ve vakıf üniversitelerinde %100 burslu olan öğrenciler başvuru yapabilmektedir.
+            </p>
+           
+          </div>
+        </AccordionItem>
+
+        <AccordionItem header="Yüksek lisans/doktora öğrencisiyim. Eğitim yardımından faydalanabilir miyim?">
+          <div className="space-y-2">
+            <p>
+            Hayır. Yüksek lisans/doktora öğrencileri başvuru yapamamaktadır.
+            </p>
+           
+          </div>
+        </AccordionItem>
+
+        <AccordionItem header="Okul döneminde sigortalı işte çalışmayı planlıyorum. Eğitim yardımım kesilir mi?">
+          <div className="space-y-2">
+            <p>
+            Hayır. Başvuru esnasındaki bilgiler geçerli olacaktır.
+            </p>
+           
+          </div>
+        </AccordionItem>
+
+        <AccordionItem header="Eğitim yardımlarının hesaplara yatırılma tarihi nedir?">
+          <div className="space-y-2">
+            <p>
+            Başvuruları kabul edilen öğrenciler, SMS ile bilgilendirilecektir
+            </p>
+           
+          </div>
+        </AccordionItem>
+
+        <AccordionItem header="Eğitim yardımlarının miktarı ne kadar olacaktır?">
+          <div className="space-y-2">
+            <p>
+            Başvuruları kabul edilen öğrenciler, eğitim yardımı miktarı hakkında bilgilendirilecektir.
+            </p>
+           
+          </div>
+        </AccordionItem>
+
+        <AccordionItem header="Eğitim yardımı için başvurdum ancak kendi hesabım yok. Yakınımın banka hesap numarasını verebilir miyim?">
+          <div className="space-y-2">
+            <p>
+            18 yaşından büyükseniz kendi hesap numaranız, küçükseniz ebeveynin ya da yasal vasinin hesap numarası verilmelidir.
+            </p>
+           
+          </div>
+        </AccordionItem>
+        
+        <AccordionItem header="Hatalı evrak yüklemesi veya bilgi girilmesi durumunda nasıl bir işlem yapılacaktır?">
+          <div className="space-y-2">
+            <p>
+            Hatalı evrak yüklenmesi durumunda tarafınıza bilgilendirme yapılarak tekrar belge yükleme/düzenleme imkanı verilecektir.
+            </p>
+           
+          </div>
+        </AccordionItem>
+
+        <AccordionItem header="Herhangi bir kurumdan burs almıyorum. Yine de burs almadığıma dair evrak sunmak zorunda mıyım?">
+          <div className="space-y-2">
+            <p>
+            Hayır. Herhangi burs alınmadığına dair bir belge sunmak gerekmemektedir.
+            </p>
+           
+          </div>
+        </AccordionItem>
+
+        <AccordionItem header="Okulum şehir dışında. Başvuru evraklarını (Transkript veya öğrenci belgesi) e-mail veya fax yoluyla iletebilir miyim?">
+          <div className="space-y-2">
+            <p>
+            Kaşeli ve imzalı tüm evrakların başvuran öğrenci tarafından sisteme girilmesi gerekmektedir.
             </p>
            
           </div>

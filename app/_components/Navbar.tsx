@@ -72,6 +72,14 @@ const Navbar = () => {
               </div>
             )} 
         <div className="hidden md:flex gap-2 lg:gap-8 mx-[10px] my-[25px] items-center justify-center">
+        <div className="relative list-none">
+                    <Link
+                      className="block hover:text-slate-200 text-white text-sm lg:text-base "
+                      href={"/"}
+                    >
+                      Yarının Öncüsü Gençler
+                    </Link>
+                  </div>
                   <div className="relative list-none">
                     <Link
                       className="block hover:text-slate-200 text-white text-sm lg:text-base "
@@ -86,14 +94,6 @@ const Navbar = () => {
                       href={"/sikca-sorulan-sorular"}
                     >
                       Sıkça Sorulan Sorular
-                    </Link>
-                  </div>
-                  <div className="relative list-none">
-                    <Link
-                      className="block hover:text-slate-200 text-white text-sm lg:text-base "
-                      href={"/sonuclar"}
-                    >
-                      Sonuçlar
                     </Link>
                   </div>
                   <div className="relative list-none">
