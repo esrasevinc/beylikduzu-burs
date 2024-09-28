@@ -123,7 +123,7 @@ const BasvuruSartlari = () => {
         <div className='flex flex-col items-start justify-start gap-4 bg-bb-green/70 rounded px-4 py-4 text-sm md:text-base md:min-h-[368px]'>
         <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
-            <p>Eğitim yardımı başvurularınızı ve evrak işlemlerinizi web sayfamız <a className='underline' href="https://www.ogrenci.beylikduzu.istanbul">www.ogrenci.beylikduzu.istanbul</a> üzerinden gerçekleştirebilirsiniz.</p>
+            <p>Eğitim yardımı başvurularınızı ve evrak işlemlerinizi web sayfamız <a className='underline' href="https://ogrenci.beylikduzu.istanbul">ogrenci.beylikduzu.istanbul</a> üzerinden gerçekleştirebilirsiniz.</p>
              
         </div>
         <div className='flex items-center justify-center text-white gap-2'>
