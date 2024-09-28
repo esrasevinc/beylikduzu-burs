@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import { FaAngleRight } from 'react-icons/fa'
 
@@ -78,11 +79,11 @@ const SartlarveGerekliBelgeler = () => {
         </div>
         <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
-            <p>YKS yerleştirme sonuçları belgesi</p>
+            <Link href="https://sonuc.osym.gov.tr/" className='underline' target={'_blank'}>YKS yerleştirme sonuçları belgesi</Link>
         </div>
         <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
-            <p>Adli sicil kaydı (E-devlet)</p>
+            <Link href="https://www.turkiye.gov.tr/adli-sicil-kaydi" className='underline' target={'_blank'}>Adli sicil kaydı (E-devlet)</Link>
         </div>
         <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
@@ -97,19 +98,19 @@ const SartlarveGerekliBelgeler = () => {
         <h3 className='text-lg lg:text-xl text-white font-medium'>Hanede Yaşayan Bireyler</h3>
         <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
-            <p>Aynı hanede yaşayan kişi belgesi (E-devlet)</p>
+            <Link href="https://www.turkiye.gov.tr/nvi-ayni-hanede-ikamet-eden-kisi-belgesi-sorgulama" target={'_blank'} className='underline'>Aynı hanede yaşayan kişi belgesi (E-devlet)</Link>
         </div>
         <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
-            <p>SGK Hizmet Dökümü (Barkodlu) (E-Devlet)</p>
+            <Link href="https://www.turkiye.gov.tr/sgk-tescil-ve-hizmet-dokumu" target={'_blank'} className='underline'>SGK Hizmet Dökümü (Barkodlu) (E-Devlet)</Link>
         </div>
         <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
-            <p>Tapu Kaydı Bilgisi (E-Devlet)</p>
+            <Link href="https://www.turkiye.gov.tr/tapu-bilgileri-sorgulama" target={'_blank'} className='underline'>Tapu Kaydı Bilgisi (E-Devlet)</Link>
         </div>
         <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
-            <p>Araç Kaydı Bilgisi (E-Devlet)</p>
+            <Link href="https://www.turkiye.gov.tr/turkiye-noterler-birligi-adima-tescilli-arac-sorgulama" target={'_blank'} className='underline'>Araç Kaydı Bilgisi (E-Devlet)</Link>
         </div>
         </div>
         </div>
