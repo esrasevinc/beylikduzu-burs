@@ -58,9 +58,6 @@ const Navbar = () => {
                 <Link href="/sikca-sorulan-sorular" onClick={toggleMenu}>
                    Sıkça Sorulan Sorular
                 </Link>
-                <Link href="/sonuclar" onClick={toggleMenu}>
-                  Sonuçlar
-                </Link>
                 <Link
                 onClick={toggleMenu}
                       className="block bg-white text-bb-green rounded-full px-4 py-2 text-base font-semibold hover:bg-bb-green hover:text-white transition-all"
