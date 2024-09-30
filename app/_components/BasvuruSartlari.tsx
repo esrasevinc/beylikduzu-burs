@@ -4,6 +4,7 @@ import { MdCancel } from "react-icons/md";
 import banner from '@/public/images/banner.jpg'
 import Image from "next/image";
 import Link from 'next/link';
+import imza from '@/public/images/başkan-imza-beyaz.png'
 
 
 const BasvuruSartlari = () => {
@@ -26,8 +27,13 @@ const BasvuruSartlari = () => {
         <h1 className='text-3xl md:text-4xl lg:text-5xl text-white font-bold text-center mx-2 lg:mt-4'>Yarının Öncüsü Gençler</h1>
         <p className='text-lg md:text-xl lg:text-2xl text-white font-semibold text-center mx-2 mt-1 lg:mt-2'>Eğitim Destek Programı</p>
         <p className='text-white text-sm md:text-lg text-center mx-4 md:mx-12 lg:mx-48 mt-4'>&quot;Her zaman siz gençlerimizin yanındayız.&quot;</p>
+        <Image 
+        src={imza}
+        alt='Baskan İmza'
+        className='w-24 h-auto'
+        />
         <Link 
-        className='bg-bb-green hover:bg-bb-green/70 rounded-full px-4 py-2 text-white transition-all mt-2 md:mt-4 lg:mt-10 md:text-lg items-center text-center text-sm'
+        className='bg-bb-green hover:bg-bb-green/70 rounded-full px-4 py-2 text-white transition-all mt-2 md:text-lg items-center text-center text-sm md:mt-4'
         href='https://ulakbel.beylikduzu.bel.tr/WebBasvuru/yarinin-oncusu-gencler#/'
         target='_blank'
         >Başvuru Yap
