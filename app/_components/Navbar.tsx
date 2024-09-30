@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <header className="bg-bb-blue z-[1000] h-[74px] md:h-auto w-full fixed flex border-b-[6px] border-b-bb-green md:top-0">
       <div className="flex flex-row justify-around items-center w-full">
-        <Link href='https://www.beylikduzu.istanbul/' target={"_blank"} >
+        <Link href='https://www.beylikduzu.istanbul/' >
         <Image 
         src={logo}
         alt="BB Logo"
