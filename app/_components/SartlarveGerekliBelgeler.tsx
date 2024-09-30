@@ -102,7 +102,7 @@ const SartlarveGerekliBelgeler = () => {
         </div>
         <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
-            <Link href="https://www.turkiye.gov.tr/sgk-tescil-ve-hizmet-dokumu" target={'_blank'} className='underline'>SGK Hizmet Dökümü (Barkodlu) (E-Devlet)</Link>
+            <p>Gelir Belgesi (SGK Hizmet Dökümü, Emekli Geliri, Maaş Bordrosu) (E-Devlet)</p>
         </div>
         <div className='flex items-center justify-center text-white gap-2'>
             <span><FaAngleRight className='w-6 h-6'/></span>
