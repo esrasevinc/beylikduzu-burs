@@ -20,11 +20,12 @@ const BasvuruSartlari = () => {
         className="max-h-[500px] min-h-[350px] w-full object-cover object-center brightness-50 saturate-100 opacity-90"
         />
         <div className="z-10 absolute h-full w-full top-0">
-        <div className="lg:mt-28 mt-4 sm:mt-20 h-full flex flex-col items-center">
+        <div className="lg:mt-28 mt-10 sm:mt-20 h-full flex flex-col items-center">
         <h1 className='text-lg md:text-2xl lg:text-3xl text-white font-semibold text-center mx-2'>BEYLİKDÜZÜ BELEDİYESİ</h1>
         <h1 className='text-base md:text-xl  text-white font-semibold text-center mx-2'>2024 - 2025 Eğitim Öğretim Yılı</h1>
         <h1 className='text-3xl md:text-4xl lg:text-5xl text-white font-bold text-center mx-2 lg:mt-4'>Yarının Öncüsü Gençler</h1>
         <p className='text-lg md:text-xl lg:text-2xl text-white font-semibold text-center mx-2 mt-1 lg:mt-2'>Eğitim Destek Programı</p>
+        <p className='text-white text-sm md:text-lg text-center mx-4 md:mx-12 lg:mx-48 mt-4'>&quot;Her zaman siz gençlerimizin yanındayız.&quot;</p>
         <Link 
         className='bg-bb-green hover:bg-bb-green/70 rounded-full px-4 py-2 text-white transition-all mt-2 md:mt-4 lg:mt-10 md:text-lg items-center text-center text-sm'
         href='https://ulakbel.beylikduzu.bel.tr/WebBasvuru/yarinin-oncusu-gencler#/'
